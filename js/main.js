@@ -22,7 +22,7 @@
     const texture = new THREE.TextureLoader().load(
       // ローカル、デプロイでURLを変更
       // "/images/winter.jpg"
-      "/three360/images/winter.jpg"
+      "/three360/images/sample2.png"
     );
 
     const material = new THREE.MeshBasicMaterial({ map: texture});
